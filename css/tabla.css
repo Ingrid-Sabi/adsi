@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+table{
+    font-size: 1.7em;
+    border-collapse: collapse;
+    margin: 25px auto;
+    width: 70%;
+}
+th,td {
+border: 1px solid white;
+
+}
+th {
+
+padding: 10px;
+text-align: center;
+background: rgb(113, 138, 252);
+}
+td{
+
+padding: 10px;
+text-align: center;
+background: rgb(225, 226, 226);
+}
+.color{
+background: lightcoral; 
+}
+.nu{
+    background: lightcoral;
+}
+
+}
+.ma{
+background: yellowgreen;
+}
+.pul{
+    background: rgb(150, 252, 120);
+}
+.pre{
+    background: khaki;
+
+}
+.con{
+background: lightblue;
+}
+.cu{
+    background: rgb(247, 92, 100);
+    }
+.des{
+        background: rgb(252, 227, 88);
+        }
