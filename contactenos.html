@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactenos</title>
+    <link rel="stylesheet" href="css/contactenos.css">
+    <link rel="stylesheet" href="css/lista.css">
+</head>
+<body>
+    <ul> 
+        <li><a href="index.html">Inicio</a> </li>
+        <li><a href="style.html">Productos</a></li>
+        <li class="a:hover"><a href="tabla.html">Tabla</a></li>
+        <li><a href="layouts.html">layouts</a></li>
+        <LI><a href="menu-absolute.html">Menu Absolute</a></LI>
+        <li><a href="menu-fixed.html">Menú Fixed</a></li>
+        <li><a href="menu-horizontal.html">Menu Horizontal</a> </li>
+        <li><a href="menu-vertical.html">Menu Vertical</a> </li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="background2.html">Background2</a></li>
+        <li><a href="background3.html">Background3</a></li>
+        <li class="menu-contactenos"><a href="contactenos.html">Contactenos</a></li>   
+    </ul>
+    <h1>contactenos</h1>
+    <form action="registrar-info.php" method="get">
+        <fieldset>
+            <legend>Ingrese la información</legend>
+        Ingrese su nombre<br>
+        <input type="text" name="nombres"><br><br> 
+        Ingrese sus apellidos<br>
+        <input type="text" name="apellidos"><br><br> 
+        Ingrese su consulta, peticion, queja o reclamo<br>
+        <textarea name="pregunta" cols="60" rows="5"></textarea><br>
+        Cómo desea adquirir el producto<br>
+        <input type="radio" name="producto"value="cuotas">cuotas<br>
+        <input type="radio" name="producto"value="de-contado">de contado<br>
+        <input type="radio" name="producto"value="no-esta-interesado">no esta interesado<br><br>
+        clasificación de electrodomésticos según su uso<br>
+        <input type="checkbox" name="clasificacion-electrodomesticos" value="cocina">cocina<br>
+        <input type="checkbox" name="clasificacion-electrodomesticos" value="dormitorio">dormitorio<br>
+        <input type="checkbox" name="clasificacion-electrodomesticos" value="aseo">aseo de la casa<br>
+        <input type="checkbox" name="clasificacion-electrodomesticos" value="sala de estudia">sala de estudo<br>
+        <input type="checkbox" name="clasificacion-electrodomesticos" value="belleza">belleza<br><br>
+        Ciudad de Residencia<br>
+        <select name="ciudad">
+            <option value="Neiva">Neiva</option>
+            <option value="Pitalito">Pitalito</option>
+            <option value="San Agustin">San Agustín</option>
+            <option value="Garzon">Garzón</option>
+            <option value="Saladoblanco">Saladoblanco</option>
+            <option value="Timana">Timaná</option>
+            <option value="Acevedo">Acevedo</option>
+            <option value="Oporapa">Oporapa</option>
+            </select><br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
